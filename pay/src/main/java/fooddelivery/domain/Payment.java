@@ -57,7 +57,7 @@ public class Payment  {
 
 
 
-    public void pay(){
+    public void pay(PayCommand payCommand){
         Paid paid = new Paid(this);
         paid.publishAfterCommit();
 

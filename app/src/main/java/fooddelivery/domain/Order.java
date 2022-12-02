@@ -60,6 +60,10 @@ public class Order  {
         //Following code causes dependency to external APIs
         // it is NOT A GOOD PRACTICE. instead, Event-Policy mapping is recommended.
 
+        fooddelivery.external.PayCommand payCommand = new fooddelivery.external.PayCommand();
+        // mappings goes here
+        AppApplication.applicationContext.getBean(fooddelivery.external.PaymentService.class)
+            .pay(/* get???(), */ payCommand);
 
 
 
