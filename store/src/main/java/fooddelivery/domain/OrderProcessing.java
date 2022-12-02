@@ -41,25 +41,7 @@ public class OrderProcessing  {
     
     
     
-    private String storeId;
-    
-    
-    
-    
-    
-    private String status;
-    
-    
-    
-    
-    
     private String address;
-    
-    
-    
-    
-    
-    private String customerId;
 
     @PostPersist
     public void onPostPersist(){

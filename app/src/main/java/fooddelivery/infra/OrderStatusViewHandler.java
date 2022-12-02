@@ -28,8 +28,6 @@ public class OrderStatusViewHandler {
             OrderStatus orderStatus = new OrderStatus();
             // view 객체에 이벤트의 Value 를 set 함
             orderStatus.setOrderId(paid.getId());
-            orderStatus.setFoodId(paid.getFoodId());
-            orderStatus.setStoreId(paid.getStoreId());
             orderStatus.setStatus("주문됨");
             // view 레파지 토리에 save
             orderStatusRepository.save(orderStatus);

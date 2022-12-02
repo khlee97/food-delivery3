@@ -69,11 +69,7 @@
                     { text: "id", value: "id" },
                     { text: "orderId", value: "orderId" },
                     { text: "price", value: "price" },
-                    { text: "status", value: "status" },
-                    { text: "foodId", value: "foodId" },
-                    { text: "address", value: "address" },
-                    { text: "storeId", value: "storeId" },
-                    { text: "customerId", value: "customerId" },
+                    { text: "action", value: "action" },
                 ],
             payment : [],
             newValue: {},
@@ -93,11 +89,7 @@
             this.newValue = {
                 'orderId': 0,
                 'price': 0,
-                'status': '',
-                'foodId': '',
-                'address': '',
-                'storeId': '',
-                'customerId': '',
+                'action': '',
             }
         },
         methods: {

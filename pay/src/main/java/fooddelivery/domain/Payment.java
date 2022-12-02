@@ -33,37 +33,13 @@ public class Payment  {
     
     
     
-    private Integer price;
+    private Double price;
     
     
     
     
     
-    private String status;
-    
-    
-    
-    
-    
-    private String foodId;
-    
-    
-    
-    
-    
-    private String address;
-    
-    
-    
-    
-    
-    private String storeId;
-    
-    
-    
-    
-    
-    private String customerId;
+    private String action;
 
     @PostPersist
     public void onPostPersist(){

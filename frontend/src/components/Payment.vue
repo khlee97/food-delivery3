@@ -19,11 +19,7 @@
         <v-card-text>
             <Number label="OrderId" v-model="value.orderId" :editMode="editMode"/>
             <Number label="Price" v-model="value.price" :editMode="editMode"/>
-            <String label="Status" v-model="value.status" :editMode="editMode"/>
-            <String label="FoodId" v-model="value.foodId" :editMode="editMode"/>
-            <String label="Address" v-model="value.address" :editMode="editMode"/>
-            <String label="StoreId" v-model="value.storeId" :editMode="editMode"/>
-            <String label="CustomerId" v-model="value.customerId" :editMode="editMode"/>
+            <String label="Action" v-model="value.action" :editMode="editMode"/>
         </v-card-text>
 
         <v-card-actions>
