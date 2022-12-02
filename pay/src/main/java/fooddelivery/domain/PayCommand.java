@@ -8,7 +8,8 @@ import lombok.Data;
 @Data
 public class PayCommand {
 
-        private String action;
+        private Long orderId;
+        private Long price;
 
 
 }

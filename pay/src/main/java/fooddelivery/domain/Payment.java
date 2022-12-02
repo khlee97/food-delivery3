@@ -33,7 +33,7 @@ public class Payment  {
     
     
     
-    private Double price;
+    private Long price;
     
     
     

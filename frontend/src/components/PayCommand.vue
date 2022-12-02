@@ -6,7 +6,8 @@
         </v-card-title>
 
         <v-card-text>
-            <String label="Action" v-model="value.action" :editMode="editMode"/>
+            <Number label="OrderId" v-model="value.orderId" :editMode="editMode"/>
+            <Number label="Price" v-model="value.price" :editMode="editMode"/>
         </v-card-text>
 
         <v-card-actions>
@@ -42,7 +43,8 @@
             value: {},
         }),
         created() {
-            this.value.action = '';
+            this.value.orderId = 0;
+            this.value.price = 0;
         },
         watch: {
         },
