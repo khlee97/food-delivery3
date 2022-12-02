@@ -9,5 +9,6 @@ public class Paid extends AbstractEvent {
 
     private Long id;
     private Long orderId;
-    private Double price;
+    private Long price;
+    private String action;
 }
