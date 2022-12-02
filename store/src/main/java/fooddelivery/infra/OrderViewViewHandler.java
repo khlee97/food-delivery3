@@ -28,9 +28,6 @@ public class OrderViewViewHandler {
             OrderView orderView = new OrderView();
             // view 객체에 이벤트의 Value 를 set 함
             orderView.setOrderId(paid.getOrderId());
-            orderView.setFoodId(paid.getFoodId());
-            orderView.setStoreId(paid.getStoreId());
-            orderView.setAddress(paid.getAddress());
             orderView.setStatus("주문됨");
             // view 레파지 토리에 save
             orderViewRepository.save(orderView);

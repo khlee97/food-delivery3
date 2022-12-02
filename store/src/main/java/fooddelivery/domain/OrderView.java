@@ -14,9 +14,6 @@ public class OrderView {
         //@GeneratedValue(strategy=GenerationType.AUTO)
         private Long id;
         private Long orderId;
-        private String foodId;
-        private String storeId;
-        private String address;
         private String status;
 
 

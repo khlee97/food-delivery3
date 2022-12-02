@@ -34,12 +34,6 @@ public class Order  {
     
     
     
-    private String address;
-    
-    
-    
-    
-    
     private String status;
     
     
@@ -52,7 +46,13 @@ public class Order  {
     
     
     
-    private String customerId;
+    private Long price;
+    
+    
+    
+    
+    
+    private Integer qty;
 
     @PostPersist
     public void onPostPersist(){

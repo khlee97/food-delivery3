@@ -69,10 +69,7 @@
                     { text: "id", value: "id" },
                     { text: "orderId", value: "orderId" },
                     { text: "foodId", value: "foodId" },
-                    { text: "storeId", value: "storeId" },
-                    { text: "status", value: "status" },
                     { text: "address", value: "address" },
-                    { text: "customerId", value: "customerId" },
                 ],
             orderProcessing : [],
             newValue: {},
@@ -92,10 +89,7 @@
             this.newValue = {
                 'orderId': 0,
                 'foodId': '',
-                'storeId': '',
-                'status': '',
                 'address': '',
-                'customerId': '',
             }
         },
         methods: {

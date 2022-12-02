@@ -18,16 +18,16 @@
                                 FoodId :  {{item.foodId }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
-                                Address :  {{item.address }}
-                            </v-list-item-subtitle>
-                            <v-list-item-subtitle>
                                 Status :  {{item.status }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
                                 StoreId :  {{item.storeId }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
-                                CustomerId :  {{item.customerId }}
+                                Price :  {{item.price }}
+                            </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                                Qty :  {{item.qty }}
                             </v-list-item-subtitle>
                         </v-list-item-content>
 

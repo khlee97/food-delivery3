@@ -9,16 +9,16 @@
                 <String label="FoodId" v-model="item.foodId" :editMode="editMode" @change="change" />
             </div>
             <div>
-                <String label="Address" v-model="item.address" :editMode="editMode" @change="change" />
-            </div>
-            <div>
                 <String label="Status" v-model="item.status" :editMode="editMode" @change="change" />
             </div>
             <div>
                 <String label="StoreId" v-model="item.storeId" :editMode="editMode" @change="change" />
             </div>
             <div>
-                <String label="CustomerId" v-model="item.customerId" :editMode="editMode" @change="change" />
+                <Number label="Price" v-model="item.price" :editMode="editMode" @change="change" />
+            </div>
+            <div>
+                <Number label="Qty" v-model="item.qty" :editMode="editMode" @change="change" />
             </div>
         </v-card-text>
 

@@ -23,9 +23,6 @@
             headers: [
                 { text: "id", value: "id" },
                 { text: "orderId", value: "orderId" },
-                { text: "foodId", value: "foodId" },
-                { text: "storeId", value: "storeId" },
-                { text: "address", value: "address" },
                 { text: "status", value: "status" },
             ],
             orderView : [],
